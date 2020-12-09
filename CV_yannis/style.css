@@ -1,0 +1,185 @@
+body {
+  background-color: ghostwhite;
+}
+
+
+
+header {
+  height: 150%;
+  background-color: rgb(66, 66, 66);
+  color: palegoldenrod;
+  border-radius: 10px;
+}
+
+#f1 {
+  font-family: fantasy;
+  font-size: 50px;
+}
+
+header h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-style: italic;
+}
+
+header h2 {
+  font-family: fantasy;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  height: 2vh;
+}
+
+#f2 {
+  font-size: 40px;
+}
+
+#entete {
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 100%;
+  height: 200px;
+  
+
+}
+
+#navmain {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgb(17, 182, 2);
+}
+
+.boutonsnav {
+  height: 4vh;
+  width: 200%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+}
+
+.boutonsnav:hover {
+  background-color: grey;
+}
+
+.active {
+  background-color: grey;
+  height: 4vh;
+  width: 200%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+}
+
+.boutonsnav:not(active) {
+  background-color: rgb(17, 182, 2);
+}
+
+#navmain a {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+main {
+  background-color: rgb(236, 247, 215);
+  height: 201vh;
+}
+
+#Présentation {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  height: 50vh;
+}
+
+#Expériences {
+  display: flex;
+  justify-content: center;
+  width: 89.3vw;
+  height: 50vh;
+}
+
+.tableau table th,
+table td {
+  table-layout: auto;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: rgb(151, 250, 69);
+  border: solid 2px black;
+}
+
+#Compétences {
+  display: flex;
+  justify-content: center;
+  width: 65vw;
+  margin: auto;
+  height: 50vh;
+}
+
+#Hobbies {
+  display: flex;
+  justify-content: center;
+  width: 44.3vw;
+  height: 50vh;
+}
+
+#Description {
+  display: flex;
+  justify-content: center;
+  width: 60vw;
+  height: 50vh;
+  margin: auto;
+}
+
+#video {
+  display: flex;
+  justify-content: center;
+  width: 60vw;
+  height: 50vh;
+  margin: auto;
+}
+
+#videocampus {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#sidebar {
+  background-color: rgb(66, 66, 66);
+  display: flex;
+  height: 200vh;
+  width: 6vw;
+  position: absolute;
+  border-radius: 10px;
+}
+
+footer #cv {
+  font-weight: bold;
+  color: palegoldenrod;
+}
+
+footer #contact {
+  font-weight: bold;
+  color: palegoldenrod;
+}
+
+footer {
+  background-color: rgb(66, 66, 66);
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: flex-end;
+  height: 4vh;
+  border-radius: 10px;
+}
+/* --------------------------------cv yannis------------------------------------- */

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts-Karl Hinterseber</title>
+    <link href="../style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="entete">
+            <p class="alone">Passionné par les nouvelles technologies et l'informatique</p>
+            <img src="image/copie.jpg" id="avatar_karl" width="100" height="111" alt="photo Karl Hinterseber" id="photo-profile" />
+        </div>
+        <div class="boutonnav" id="navmain">
+          <a class="active" href="./index.html">Présentation</a>
+          <a class="boutonsnav" href="./hobbies.html">Hobbies</a>
+          <a class="boutonsnav" href="./contacts.html">Contact</a>
+        </div>
+    </header>
+    <main>
+        <div class="flexmain">
+            <h1>Karl Hinterseber</h1>
+        </div>
+        <p>Comment avez-vous découvert le site?</p>
+        <form action="https://httpbin.org/post" method="post">
+            <div>
+                <select name="choix_site" id="monselect">
+                    <option value="valeur1">Par une recherche internet</option>
+                    <option value="valeur2" selected>Par des amis</option>
+                    <option value="valeur3">Par hasard</option>
+                </select>
+            </div>
+            <div>
+                <input type="radio" id="contactChoice1" name="contacts" value="madame">
+                <label for="contactChoice1">Madame</label>
+
+                <input type="radio" id="contactChoice2" name="contacts" value="monsieur">
+                <label for="contactChoice2">Monsieur</label>
+            </div>
+            <div>
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="user_name" placeholder="Entrez votre nom" required>
+            </div>
+            <div>
+                <label for="mail">e-mail:</label>
+                <input type="email" id="mail" name="user_mail" placeholder="Entrez votre e-mail" required>
+            </div>
+            <div>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message" placeholder="Entrez votre message" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+        <a href="mailto:karlhinterseber1@gmail.com">Email</a>
+    </main>
+    <footer>
+        <p>© 2020 </p>
+    </footer>
+</body>
+
+</html>
